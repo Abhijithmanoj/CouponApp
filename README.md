@@ -47,7 +47,7 @@ Apply Coupon to Cart:POST /coupons/apply-coupon/{id}
 
 Running the Application
 Clone the Repository:
-git clone https://github.com/your-repo/coupon-management-api.git
+git clone https://github.com/your-repo/couponApp.git
 cd couponApp
 Build the Project:mvn clean install
 Run the Application:mvn spring-boot:run
