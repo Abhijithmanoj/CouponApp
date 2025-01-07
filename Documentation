@@ -1,0 +1,15 @@
+Unimplemented Cases:
+1. A tiered dicount system can be implemented so instead of giving a price cap for each coupon a tiered discount coupon coupon can be used  .
+Example: If the total value exceeds 100, offer a 5% discount, and if it exceeds 500, offer a 10% discount. This could encourage users to buy more products to reach the next discount threshold.
+2.Gift Coupon can be implemented:  Offer a free item based on the total value of the cart or specific product purchases 
+3.A user entity can be implemented , so based on the previous hopping history , many coupon logic can be implemnted
+Combining coupons : Applying more than one coupon based on the cart specifications.
+
+Limitations:
+Current system is not using an external database, so the data is temporary
+Validations are not set in craetion of coupons and  for applying
+No date constarints as of now so there wont be any expiry logic for coupons
+Error handling has to be done 
+
+Assumptions:
+The Request will be in correct format for all the cases as there is no validations done
