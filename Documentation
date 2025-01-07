@@ -4,6 +4,7 @@ Example: If the total value exceeds 100, offer a 5% discount, and if it exceeds 
 2.Gift Coupon can be implemented:  Offer a free item based on the total value of the cart or specific product purchases 
 3.A user entity can be implemented , so based on the previous hopping history , many coupon logic can be implemnted
 Combining coupons : Applying more than one coupon based on the cart specifications.
+Error handling needs to be done.
 
 Limitations:
 Current system is not using an external database, so the data is temporary
